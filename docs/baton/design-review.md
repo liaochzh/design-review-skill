@@ -6,7 +6,7 @@
 ## 仓库与发布（2026-10-28 起）
 
 - **本体在仓库，配置目录是目录级软链**：`~/.config/opencode/skills/design-review -> ~/Projects/design-review-skill`。改文件请改仓库内路径，软链会透传。
-- **docs 随仓库走**：`docs/plan/`（v1→v7 全文 + r1–r6 评审）、`docs/baton/`、`docs/plan/_evidence/`（冻结包）都在仓库内；`/Users/lcr/docs/` 下**不再保留** design-review 文档。
+- **docs 随仓库走**：`docs/plan/`（v1→v7 全文 + r1–r6 评审）、`docs/baton/`、`docs/plan/_evidence/`（冻结包）都在仓库内；`~/docs/` 下**不再保留** design-review 文档。
 - **`references/plan-review-reading.md`** 已移入仓库，全局位置（`~/.config/opencode/references/`）留**软链**回指 ⇒ `references/README.md` 索引与 `SKILL.md:126` 的相对路径同时有效。
 - **提交身份是仓库局部**：`git config user.email liaochzh@gmail.com`（`user.name` 未设，沿用全局 `LCR`）；不要改成全局。
 - **10 份 sample 不在本仓库**：它们属于被审方案，已分到 `skills/code-error-fixer/docs/plan/`（sample-01..05、07、08-09、10-glm）与 `skills/product-manager/docs/plan/`（sample-06）。本仓库只留冻结包副本（不可变，可安全复制）。

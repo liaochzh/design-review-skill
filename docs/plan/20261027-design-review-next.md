@@ -35,7 +35,7 @@ v1 的骨架成立（A→B→观察→D），但有两处契约前提未核，�
 ## 步骤
 
 ### A1 校准（执行者：主会话；plan-review 仅产报告）
-1. 取样：`/Users/lcr/docs/plan/20261027-design-skill-consistency.md`（已有 `.review.md` 可作 r1 对照）。
+1. 取样：`~/docs/plan/20261027-design-skill-consistency.md`（已有 `.review.md` 可作 r1 对照）。
 2. 用改造后的 skill 跑一次 plan-review（prompt 内给显式文件清单：SKILL.md、checklists/plan.md、references/plan-review-reading.md、opencode.jsonc 相关行区间）。
 3. 记录 6 项：有ID / 有性质判定 / 有证据等级 / 结论合门禁 / 报告块数与行数 / 被降级条目数（消费侧分诊结果）。
 4. 任一缺项必须标注来源归属：`system 未要求` / `skill 未执行` / `样本无需`。
@@ -286,11 +286,11 @@ v1 的骨架成立（A→B→观察→D），但有两处契约前提未核，�
 按 design-review skill 审查方案（实施前方案评审，不是代码 diff 审查）。
 
 ## 待审对象
-/Users/lcr/docs/plan/_evidence/20261027-s1/input.md
+~/docs/plan/_evidence/20261027-s1/input.md
 
 ## 约束
 - 按首轮评审处理：不读取、不搜索任何既有的 .review.md / .review.rN.md 报告；不要沿用任何外部条目 ID。
-- 参考文件（定点读，勿扫整树）：/Users/lcr/docs/plan/_evidence/20261027-s1/SKILL.md、/Users/lcr/docs/plan/_evidence/20261027-s1/plan.md
+- 参考文件（定点读，勿扫整树）：~/docs/plan/_evidence/20261027-s1/SKILL.md、~/docs/plan/_evidence/20261027-s1/plan.md
 - 只读：不写文件、不跑 shell。读不到或无法核实的标 ❓，不得臆断。
 
 ## 输出要求
