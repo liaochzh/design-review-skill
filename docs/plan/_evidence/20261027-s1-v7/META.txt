@@ -1,0 +1,26 @@
+design-review 冻结采样基线（技能侧 v7：输出纪律三组化）
+生成时刻: 2026-10-27 23:47:18 CST
+用途: 跨模型采样的唯一输入与唯一 skill 版本；派发时指向本目录，勿指向 repo 现文。
+
+文件清单
+--------
+input.md  = 被审方案（自 20261027-s1 逐字节复制，未改动）
+plan.md   = checklists/plan.md 快照
+SKILL.md  = skills/design-review/SKILL.md 快照
+
+sha256
+------
+bcf55d9c28bd2b6d2fe354cdc57402d3b2d17b734f699ef1911402eec9128557  input.md
+8149b1b63cf055120139fbd8b87de908a548ccb65098b8f6cf12d8ae37e48a57  plan.md
+d101d4bdaad414e767459dd2a6ec3d94d501c023198f4a9f73dc264064ace992  SKILL.md
+行数
+----
+     294 input.md
+      41 plan.md
+     298 SKILL.md
+     633 total
+
+与上一冻结包（20261027-s1）的差异
+--------------------------------
+旧 SKILL.md sha=08807d3c0025 (280 行) 已落后三版（W8 结构自检 / W9 篇幅预算 / v7 三组重组）。
+旧包保留不动，仅供解释历史样本；新样本一律指向本目录。

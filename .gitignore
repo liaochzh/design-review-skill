@@ -1,0 +1,6 @@
+# macOS / 编辑器
+.DS_Store
+*.swp
+
+# 运行时临时产物
+*.log
