@@ -61,4 +61,4 @@ docs/plan/_evidence/         冻结采样包（只读，sha 与时刻见 META.tx
 
 ## License
 
-未声明 License，默认保留所有权利（如需复用请先联系作者）。
+MIT（见 `LICENSE`）。
