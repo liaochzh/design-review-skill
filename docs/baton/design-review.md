@@ -1,14 +1,24 @@
 # 接力棒：design-review skill（方案审核）
 
-> 更新：2026-10-28 00:1x｜状态：**已结项，转入被动观察期**
+> 更新：2026-10-28 11:1x｜状态：**已结项 + 已仓库化，转入被动观察期**
+> 仓库：`~/Projects/design-review-skill` ↔ `https://github.com/liaochzh/design-review-skill`（private，main）
+
+## 仓库与发布（2026-10-28 起）
+
+- **本体在仓库，配置目录是目录级软链**：`~/.config/opencode/skills/design-review -> ~/Projects/design-review-skill`。改文件请改仓库内路径，软链会透传。
+- **docs 随仓库走**：`docs/plan/`（v1→v7 全文 + r1–r6 评审）、`docs/baton/`、`docs/plan/_evidence/`（冻结包）都在仓库内；`/Users/lcr/docs/` 下**不再保留** design-review 文档。
+- **`references/plan-review-reading.md`** 已移入仓库，全局位置（`~/.config/opencode/references/`）留**软链**回指 ⇒ `references/README.md` 索引与 `SKILL.md:126` 的相对路径同时有效。
+- **提交身份是仓库局部**：`git config user.email liaochzh@gmail.com`（`user.name` 未设，沿用全局 `LCR`）；不要改成全局。
+- **10 份 sample 不在本仓库**：它们属于被审方案，已分到 `skills/code-error-fixer/docs/plan/`（sample-01..05、07、08-09、10-glm）与 `skills/product-manager/docs/plan/`（sample-06）。本仓库只留冻结包副本（不可变，可安全复制）。
+- 发布流程：`git add -A && git commit && git push`（`origin` 已配好）；改 `~/.config/opencode/**` 后再跑一次 `python3 scripts/verify-env-guard.py --gate --quiet` ⇒ rc=0。
 
 ## 现状（下次接手先核这些）
 
-| 文件 | 行数 | sha256（前 12） | 说明 |
+| 文件（仓库内相对路径） | 行数 | sha256（前 12） | 说明 |
 |---|---|---|---|
-| `skills/design-review/SKILL.md` | 298 | `d101d4bdaad4` | 输出纪律 = 三组 8 条（说什么/怎么说/交什么），**接近膨胀临界，再遇缺口优先组内替换，不加条** |
-| `skills/design-review/checklists/plan.md` | 41 | `8149b1b63cf0` | 含核销表两列三态约定 |
-| `references/sources.md` / `references/review-routing.md` | — | — | 来源与路由 |
+| `SKILL.md` | 298 | `d101d4bdaad4` | 输出纪律 = 三组 8 条（说什么/怎么说/交什么），**接近膨胀临界，再遇缺口优先组内替换，不加条** |
+| `checklists/plan.md` | 41 | `8149b1b63cf0` | 含核销表两列三态约定 |
+| `references/sources.md` | — | — | 设计原则与开源同类来源（路由 `references/review-routing.md` 在**全局** references，不随本仓库） |
 | `references/plan-review-reading.md` | 137 | — | 观察期落点：采样读数 + **真实使用记录** + 不可归因规则 |
 | `docs/plan/_evidence/20261027-s1-v7/` | — | SKILL `d101d4bdaad4` | 冻结包（`a-w` + `META.txt`），**新样本只用这个** |
 
