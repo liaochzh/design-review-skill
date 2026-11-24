@@ -26,9 +26,9 @@
 - 判 P1 两条，逐条复核成立（契约冲突致观测失真 / 复审覆写丢档）⇒ 本轮**未观察到膨胀**，但 n=1 不足以推翻既有基线
 - 缺项归因假设：plan-review 的 agent system 未要求证据等级/追溯表 ⇒ 双契约并存时 skill 新增块「部分生效」，待三方对照验证
 
-## A1 校准记录（第 2 次提样：r2 / 复审场景，样本 = 20261027-design-skill-consistency）
+## A1 校准记录（第 2 次提样：r2 / 复审场景，样本 = `20261027-design-skill-consistency`，该档已归档：`~/Projects/design-spec/docs/archive/2026-11-设计规范战役与成库.md`）
 
-记录 6 项（口径见 `docs/plan/20261027-design-review-next.md` A1）：
+记录 6 项（口径见 `docs/archive/2026-11-方案与6轮审查.md`，原 `docs/plan/20261027-design-review-next.md` A1）：
 
 1. **有稳定 ID** ✅ — 沿用 r1 的 21 条编号（P0-1/…/P2-10）+ 新增段 `N1-N8`
 2. **有性质判定** ✅ — 真实缺陷 5 条、加固建议 3 条、❓ 1 条，逐条带分级依据
@@ -57,7 +57,7 @@
 
 ## C1 / C2 实验结果（第 5-9 次提样，2026-10-27）
 
-样本产物：`docs/plan/20261027-code-error-fixer-next.review.sample-01..05.md`、`docs/plan/20261027-product-manager-behavior-regression.review.sample-06.md`；冻结输入 `docs/plan/_evidence/20261027-s1/`。
+样本产物（原档已归档，2026-11-04）：`20261027-code-error-fixer-next.review.sample-01..05.md` → `~/Projects/code-error-fixer-skill/docs/archive/2026-11-收口与能力验收.md`；`20261027-product-manager-behavior-regression.review.sample-06.md` → `~/Projects/product-manager-skill/docs/archive/2026-11-路由与行为回归.md`；冻结输入 `docs/plan/_evidence/20261027-s1/` 保留在本仓。
 
 | 编号 | 输入 | 取证范围 | 条目数 | 结论档 | 证据等级 |
 |---|---|---|---|---|---|
